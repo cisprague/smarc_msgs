@@ -1,0 +1,14 @@
+# Action specification
+# for state tracking.
+
+# Goal
+string pose_topic
+float32 timeout
+---
+
+# Result
+float32 duration 
+---
+
+# Feedback
+float32 duration
